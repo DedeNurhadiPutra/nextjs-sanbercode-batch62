@@ -12,7 +12,7 @@ export default function Layout({ children, metaTitle, metaDescription }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Header />
-      Content
+      <div className='background-white text-red'>Content</div>
       {children}
       <Footer />
     </div>
